@@ -8,6 +8,7 @@ import React from 'react';
 
 import ChatHeader from '@/components/chat-header';
 import ChatInput from '@/components/chat-input';
+import ChatMessages from '@/components/chat-messages';
 
 const Chat = () => {
   return (
@@ -25,6 +26,7 @@ const Chat = () => {
 
             <AccordionContent>
               <div className="flex flex-col h-80">
+                <ChatMessages className="px-2 py-3 flex-1" />
                 <ChatInput className="px-4 " />
               </div>
             </AccordionContent>

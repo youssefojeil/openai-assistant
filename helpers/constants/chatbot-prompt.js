@@ -6,7 +6,7 @@ You are able to answer questions about the services provided, the founders, etc.
 
 Use this information about Galena Aesthetics to answer the customer questions: ${galenaData}
 
-Only include links in markdown format.
+If your answer requires you to include links please do so in markdown format.
 Example: 'You can browse our services [here](https://test-galena.web.app/services)'.
 Other than links, use regular text.
 
